@@ -1,0 +1,78 @@
+html, body {
+    background-color: #b0c4de;
+    text-align: center;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    min-width: 320px;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+#form-outer {
+    background-color: rgb(250, 250, 250);
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 75%;
+    max-width: 900px;
+    padding: 10px;
+    padding-top: 20px;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+    font-size: 20px;
+}
+.lefttab { 
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+.righttab { 
+    float: left;
+  width: width: 48%;
+}
+.label {
+      
+    text-align: right;
+    padding: 9px;
+    margin-top: 10px;
+}
+.input {
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+}
+
+.input input { 
+    height: 20px;
+    
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+    width: 200%;
+}
+
+.clearfix {
+  height: 0px;
+  clear: both;
+}
+
+.radio, .checkbox {
+  float: left;
+}
+span { 
+   float: left;
+}
